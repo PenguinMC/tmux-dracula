@@ -5,7 +5,7 @@ tmux-dracula
 
 Self-contained, pretty and versatile `.tmux.conf` configuration file with [Dracula theme](https://draculatheme.com/).
 
-![Screenshot](https://cloud.githubusercontent.com/assets/553208/19740585/85596a5a-9bbf-11e6-8aa1-7c8d9829c008.gif)
+![Screenshot](https://user-images.githubusercontent.com/11281228/62902826-15feac80-bd61-11e9-8d25-d5b1bb1770fc.png)
 
 Installation
 ------------

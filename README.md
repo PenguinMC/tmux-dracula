@@ -1,7 +1,9 @@
-.tmux
-=====
+tmux-dracula
+============
 
-Self-contained, pretty and versatile `.tmux.conf` configuration file.
+![](https://draculatheme.com/assets/img/icons/dracula.svg | width=300)
+
+Self-contained, pretty and versatile `.tmux.conf` configuration file with [Dracula theme](https://draculatheme.com/).
 
 ![Screenshot](https://cloud.githubusercontent.com/assets/553208/19740585/85596a5a-9bbf-11e6-8aa1-7c8d9829c008.gif)
 
@@ -12,6 +14,7 @@ Requirements:
 
   - tmux **`>= 2.1`** running inside Linux, Mac, OpenBSD, Cygwin or WSL (Bash on
     Ubuntu on Windows)
+  - [taskwarrior](https://taskwarrior.org/)
   - outside of tmux, `$TERM` must be set to `xterm-256color`
 
 To install, run the following from your terminal: (you may want to backup your
@@ -22,9 +25,18 @@ $ cd
 $ git clone git@github.com:mamyn0va/tmux-dracula.git .tmux
 $ ln -s -f .tmux/.tmux.conf
 $ cp .tmux/.tmux.conf.local .
+$ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
 
-Then proceed to [customize] your `~/.tmux.conf.local` copy.
+Then reload your tmux conf:
+
+```
+$ tmux source ~/.tmux.conf
+```
+
+Then install the required plugins by pressing `prefix` + <kbd>I</kbd> (capital i, as in **I**nstall) to fetch the plugins using `tpm`.
+
+Finally proceed to [customize] your `~/.tmux.conf.local` copy.
 
 [customize]: #enabling-the-powerline-look
 

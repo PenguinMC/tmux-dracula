@@ -1,7 +1,7 @@
 tmux-dracula
 ============
 
-![](https://draculatheme.com/assets/img/icons/dracula.svg =250x250)
+<img src="https://draculatheme.com/assets/img/icons/dracula.svg" width="400"/>
 
 Self-contained, pretty and versatile `.tmux.conf` configuration file with [Dracula theme](https://draculatheme.com/).
 

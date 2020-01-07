@@ -1,7 +1,7 @@
 tmux-dracula
 ============
 
-<div align="center"><img src="https://draculatheme.com/assets/img/icons/dracula.svg" width="400"/></div>
+<div align="center"><img src="https://draculatheme.com/static/img/icons/dracula.svg" width="400"/></div>
 
 Self-contained, pretty and versatile `.tmux.conf` configuration file with [Dracula theme](https://draculatheme.com/) and task support.
 
